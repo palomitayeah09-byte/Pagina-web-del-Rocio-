@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>El Rocío — Romería de Luz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="hero" id="top">
+    <div class="hero__bg parallax" data-speed="0.14"></div>
+    <div class="hero__glow"></div>
+
+    <div class="hero__inner container">
+      <div class="hero__brand reveal">
+        <h1><span>El</span> Rocío</h1>
+      </div>
+
+      <div class="hero__logo reveal">
+        <a href='https://postimages.org/' target='_blank'>
+        <a href='https://postimg.cc/R3ymZ09B' target='_blank'><a href='https://postimg.cc/R3ymZ09B' target='_blank'><img src='https://i.postimg.cc/R3ymZ09B/Chat-GPT-Image-8-may-2026-13-16-10.jpg' border='0' alt='Chat-GPT-Image-8-may-2026-13-16-10'></a>
+      
+      </div>
+    </div>
+
+    <button class="scroll-indicator" aria-label="Bajar a contenido" data-target="#contenido">
+      Descubrir
+      <span></span>
+    </button>
+  </header>
+
+  <main id="contenido" class="container">
+    <section class="layout-story">
+      <article class="card card--small observe" id="que-es">
+        <p class="eyebrow">¿Qué es?</p>
+        <h2>Una tradición que une caminos y fe</h2>
+        <p>
+          El Rocío es una de las romerías más emocionantes de Andalucía. Cada año, miles de peregrinos recorren senderos de arena para encontrarse
+          con la Virgen en una celebración de identidad, música, convivencia y devoción popular.
+        </p>
+      </article>
+
+      <article class="card card--location observe" id="ubicacion">
+        <p class="eyebrow">Ubicación</p>
+        <h2>Almonte, entre marismas y luz</h2>
+        <p>
+          La aldea de El Rocío se encuentra en Almonte (Huelva), junto al Parque Nacional de Doñana. Su entorno natural y su arquitectura blanca
+          crean un paisaje único donde lo espiritual y lo cotidiano se mezclan de forma inolvidable.
+        </p>
+      </article>
+
+      <article class="card card--text observe">
+        <p class="eyebrow">Historia</p>
+        <h2>Siglos de memoria compartida</h2>
+        <p>
+          Con raíces antiguas, la romería ha crecido como símbolo cultural del sur. Hermandades de numerosos pueblos avanzan juntas en carretas,
+          caballos y cantos, manteniendo viva una herencia que pasa de generación en generación.
+        </p>
+      </article>
+
+      <figure class="card card--photo card--photo-right observe">
+        <a href='https://postimages.org/' target='_blank'><a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/ZRd4wrLJ/ole.jpg' border='0' alt='ole'></a>
+        <figcaption>Atmósfera de marisma</figcaption>
+      </figure>
+
+      <figure class="card card--photo card--photo-left observe">
+        <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/rwj1p4xJ/vale.jpg' border='0' alt='vale'></a>
+      </figure>
+
+      <article class="card card--text observe">
+        <p class="eyebrow">Romería</p>
+        <h2>Compás, emoción y promesa de volver</h2>
+        <p>
+          El camino se vive con sevillanas, tamboriles y encuentros en hermandad. En cada parada, la experiencia se vuelve íntima y colectiva a la vez,
+          dejando una huella emocional que acompaña todo el año.
+        </p>
+      </article>
+    </section>
+
+    <section class="closing observe">
+      <h3>“No se llega a El Rocío solo con los pies, también se llega con el alma.”</h3>
+      <a href="#top" class="btn">Volver al inicio</a>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+ <button id="playBtn">🎵 Darle al play</button>
+
+<audio id="bgMusic" loop>
+  <source src="https://s5.aconvert.com/convert/p3r68-cdx67/kgxjv-edb3n.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  const music = document.getElementById("bgMusic");
+  const btn = document.getElementById("playBtn");
+
+  btn.addEventListener("click", () => {
+    music.play();
+  });
+</script>
